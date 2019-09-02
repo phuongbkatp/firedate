@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSwipeImageGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewSwipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/admob_banner_ad_unit_id">
+
+        </com.google.android.gms.ads.AdView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayoutSwipeButtons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:clipChildren="false"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageViewProfileViewLovesUndo"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:elevation="6dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/swipe_undo" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageViewProfileViewLovesNope"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:elevation="6dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/swipe_nope" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageViewProfileViewLovesSuper"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:elevation="6dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/swipe_super" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageViewProfileViewLovesLike"
+                    android:layout_width="0dp"
+                    android:layout_height="65dp"
+                    android:layout_weight="1"
+                    android:elevation="6dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/swipe_like" />
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageViewProfileViewLovesBoost"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:elevation="6dp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/swipe_boost" />
+
+
+            </LinearLayout>
+
+
+            <com.yuyakaido.android.cardstackview.CardStackView
+                android:id="@+id/cardStackViewNavigationSwipe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/linearLayoutSwipeButtons"
+                android:clipToPadding="false">
+
+            </com.yuyakaido.android.cardstackview.CardStackView>
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <com.skyfishjy.library.RippleBackground
+        android:id="@+id/rippleSwipeAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:rb_color="@color/colorPinkLight"
+        app:rb_duration="3000"
+        app:rb_radius="50dp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="8">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageRippleSwipeUser"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/profile_image" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageRippleSwipeUser"
+            android:layout_centerHorizontal="true"
+            android:text="Finding people near you..."
+            android:textColor="@color/colorGreyText"
+            android:textSize="16sp" />
+    </com.skyfishjy.library.RippleBackground>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutSwipeEmptyGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/tab_page_swipe" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Swipe. Match. Date."
+            android:textAlignment="center"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="We couldn't find any user matching your search crteria. Try again later."
+            android:textAlignment="center"
+            android:textColor="@color/colorGreyDark"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.DrawerLayout>

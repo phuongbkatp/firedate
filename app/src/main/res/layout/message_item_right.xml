@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_gravity="start"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="8dp"
+    android:paddingStart="40dp"
+    android:paddingLeft="40dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_blue"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingTop="7dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="7dp">
+
+            <TextView
+                android:id="@+id/textViewChatMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/message"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageViewChatSent"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/chat_sent" />
+
+            <ImageView
+                android:id="@+id/imageViewChatSeen"
+                android:layout_width="16dp"
+                android:layout_height="12dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="3dp"
+                android:src="@drawable/chat_seen" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

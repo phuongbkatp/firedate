@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/textViewProfileEditSeekbarsMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_16"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewProfileEditSeekbarsMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/_60"
+        android:textSize="20sp" />
+
+    <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+        android:id="@+id/seekbarProfileEditSeekbarsSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewProfileEditSeekbarsMin"
+        android:layout_marginTop="20dp"
+        app:bar_color="@color/colorPink"
+        app:bar_highlight_color="@color/colorPinkDark"
+        app:corner_radius="10"
+        app:data_type="_integer"
+        app:gap="10"
+        app:left_thumb_color="@color/colorPinkDark"
+        app:left_thumb_color_pressed="@color/colorPinkDark"
+        app:max_value="60"
+        app:min_value="16"
+        app:right_thumb_color="@color/colorPinkDark"
+        app:right_thumb_color_pressed="@color/colorPinkDark" />
+
+
+</RelativeLayout>

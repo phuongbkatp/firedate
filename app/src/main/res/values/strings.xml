@@ -1,0 +1,361 @@
+<resources>
+    <string name="app_name">FireDate</string>
+
+    <string name="full_name">Full Name</string>
+    <string name="message">Message</string>
+    <string name="date">Date</string>
+    <string name="_0">0</string>
+    <string name="cheers">Cheers!</string>
+    <string name="welcome_back_dear_visitor">Welcome back dear visitor!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_now">Create now!</string>
+    <string name="flirt">Flirt</string>
+    <string name="name">name</string>
+    <string name="status">Status</string>
+    <string name="send_message">Send message</string>
+    <string name="seeking_for">Seeking for</string>
+    <string name="add">Add</string>
+    <string name="about_me">About Me</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="country">Country</string>
+    <string name="language">Language</string>
+    <string name="relationship">Relationship</string>
+    <string name="sexual_orientation">Sexual Orientation</string>
+    <string name="looking_for">Looking for</string>
+    <string name="age_interested">Age Interested</string>
+    <string name="age">Age</string>
+    <string name="age_interest">Age Interest</string>
+    <string name="hello">Hello!</string>
+    <string name="stranger_let_s_know_you">Stranger! Let\'s know you..</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="birthday">Birthday</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="login_here">Login here!</string>
+    <string name="g">G</string>
+    <string name="km">km</string>
+    <string name="about">About</string>
+    <string name="chat_now">Chat now</string>
+    <string name="start">start</string>
+    <string name="_16">16</string>
+    <string name="_60">60+</string>
+    <string name="gender">gender</string>
+
+    <string name="facebook_app_id">331875347481475</string>
+    <string name="fb_login_protocol_scheme">fb331875347481475</string>
+
+    <string name="admob_banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_interstitial_video_ad_unit_id">ca-app-pub-3940256099942544/8691691433</string>
+
+
+    <string-array name="string_array_user_gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Transgender</item>
+        <item>Agender</item>
+        <item>Androgyne</item>
+        <item>Androgynous</item>
+        <item>Bigender</item>
+        <item>Cisgender</item>
+        <item>Genderqueer</item>
+        <item>Intersex</item>
+        <item>Neutrois</item>
+        <item>Non-binary</item>
+        <item>Pangender</item>
+        <item>Trans Female</item>
+        <item>Trans Male</item>
+        <item>Transfeminine</item>
+        <item>Transgender</item>
+        <item>Transmasculine</item>
+        <item>Transsexual</item>
+        <item>Two-Spirit</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="string_array_user_looking">
+        <item>Man</item>
+        <item>Woman</item>
+        <item>Man and Woman</item>
+    </string-array>
+
+    <string-array name="string_array_show_gender">
+        <item>Any</item>
+        <item>Man</item>
+        <item>Woman</item>
+    </string-array>
+
+
+    <string-array name="string_array_user_seeking">
+        <item>Penpal</item>
+        <item>Friendship</item>
+        <item>Short-term Relationship</item>
+        <item>Romance/Dating</item>
+        <item>Marriage</item>
+        <item>No Strings Attached</item>
+        <item>Fun</item>
+    </string-array>
+
+    <string-array name="string_array_show_seeking">
+        <item>Any</item>
+        <item>Penpal</item>
+        <item>Friendship</item>
+        <item>Short-term Relationship</item>
+        <item>Romance/Dating</item>
+        <item>Marriage</item>
+        <item>No Strings Attached</item>
+        <item>Fun</item>
+    </string-array>
+
+    <string-array name="string_array_user_marital">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>In Relationship</item>
+    </string-array>
+
+    <string-array name="string_array_show_marital">
+        <item>Any</item>
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>In Relationship</item>
+    </string-array>
+
+
+    <string-array name="string_array_user_sexual">
+        <item>Straight</item>
+        <item>Lesbian</item>
+        <item>Bisexual</item>
+    </string-array>
+
+    <string-array name="string_array_show_sexual">
+        <item>Any</item>
+        <item>Straight</item>
+        <item>Lesbian</item>
+        <item>Bisexual</item>
+    </string-array>
+
+
+    <string-array name="string_array_user_appearance">
+        <item>Below Average</item>
+        <item>Average</item>
+        <item>Attractive</item>
+        <item>Very Attractive</item>
+    </string-array>
+    <string-array name="string_array_user_feature">
+        <item>My Arms</item>
+        <item>My Butts</item>
+        <item>My Chest</item>
+        <item>My Eyes</item>
+        <item>My Hands</item>
+        <item>My Legs</item>
+        <item>My Lips</item>
+        <item>My Personality</item>
+        <item>My Smile</item>
+        <item>My Wallet</item>
+    </string-array>
+    <string-array name="string_array_user_ethnicity">
+        <item>Arab(Middle Eastern)</item>
+        <item>Asian</item>
+        <item>Black</item>
+        <item>Caucasian(White)</item>
+        <item>Hispanic Latino</item>
+        <item>Indian</item>
+        <item>Mixed</item>
+        <item>Pacific Islander</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="string_array_user_bodytype">
+        <item>Curvy</item>
+        <item>Toned</item>
+        <item>Slender</item>
+        <item>Atheletic</item>
+        <item>Average</item>
+        <item>Overweight</item>
+    </string-array>
+    <string-array name="string_array_user_bodyart">
+        <item>Branding</item>
+        <item>Earrings</item>
+        <item>Peircing</item>
+        <item>Tattoo</item>
+    </string-array>
+    <string-array name="string_array_user_eyecolor">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Grey</item>
+        <item>Hazel</item>
+    </string-array>
+    <string-array name="string_array_user_eyewear">
+        <item>Contacts</item>
+        <item>Glasses</item>
+    </string-array>
+    <string-array name="string_array_user_haircolor">
+        <item>Bald/Shaved</item>
+        <item>Black</item>
+        <item>Blonde</item>
+        <item>Brown</item>
+        <item>Grey/White</item>
+        <item>Light Brown</item>
+        <item>Hazel</item>
+        <item>Changes Frequently</item>
+    </string-array>
+    <string-array name="string_array_user_income">
+        <item>0$-30.000$</item>
+        <item>30.001$-60.000$</item>
+        <item>60.001$-120.000$</item>
+        <item>120.001$-180.000$</item>
+        <item>180.001$-240.000$</item>
+        <item>240.001$-600.000$</item>
+        <item>More than 600.000$</item>
+    </string-array>
+    <string-array name="string_array_user_education">
+        <item>School</item>
+        <item>High School</item>
+        <item>University</item>
+        <item>Master</item>
+        <item>Doctorate</item>
+    </string-array>
+    <string-array name="string_array_user_language">
+        <item>Arabic</item>
+        <item>Armenian</item>
+        <item>Azerbaijani</item>
+        <item>Belorussian</item>
+        <item>Bulgariana</item>
+        <item>Chinese</item>
+        <item>Chiu Chau</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Fijian</item>
+        <item>French</item>
+        <item>Fukien</item>
+        <item>Georgiana</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hungarian</item>
+        <item>Indian</item>
+        <item>Irish</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kannada</item>
+        <item>Kirgiz</item>
+        <item>Kongo</item>
+        <item>Korean</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Lomwe</item>
+        <item>Luxembourgish</item>
+        <item>Macedonian</item>
+        <item>Makonde</item>
+        <item>Malay</item>
+        <item>Nepali</item>
+        <item>Norwegian</item>
+        <item>Philippine</item>
+        <item>Polish</item>
+        <item>Portuguesse</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Slovak</item>
+        <item>Spanish</item>
+        <item>Swedish</item>
+        <item>Thai</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Uzbek</item>
+    </string-array>
+    <string-array name="string_array_user_religion">
+        <item>Christianity</item>
+        <item>Spiritism</item>
+        <item>Judaism</item>
+        <item>Hindu</item>
+        <item>Bahai</item>
+        <item>Jainism</item>
+        <item>Shinto</item>
+        <item>Cao Dai</item>
+        <item>Zoroastrianism</item>
+        <item>Tenrikyo</item>
+        <item>Paganism</item>
+        <item>Unitarian Universalism</item>
+        <item>Islam</item>
+        <item>Rastafarianism</item>
+        <item>Scientology</item>
+        <item>Secular(Non Religious/Agnostic Atheist)</item>
+        <item>Chinese Traditional</item>
+        <item>Buddhism</item>
+        <item>Primal Indigenous</item>
+        <item>African Tradional Diasporic</item>
+        <item>Sikhism</item>
+        <item>Juche</item>
+    </string-array>
+    <string-array name="string_array_user_drinking">
+        <item>Always</item>
+        <item>Frequently</item>
+        <item>Normal</item>
+        <item>Little</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="string_array_user_smoking">
+        <item>Always</item>
+        <item>Frequently</item>
+        <item>Normal</item>
+        <item>Little</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="string_array_user_living">
+        <item>Living alone</item>
+        <item>Living with friends</item>
+        <item>Living with family</item>
+        <item>Living with kids</item>
+        <item>Living with spouse</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="string_array_user_relocation">
+        <item>Willing to relocate within my country</item>
+        <item>Willing to relocate within country</item>
+        <item>Not willing to relocate</item>
+        <item>Not sure about relocating</item>
+    </string-array>
+    <string-array name="string_array_user_starsign">
+        <item>Aquarius</item>
+        <item>Aries</item>
+        <item>Cancer</item>
+        <item>Capricorn</item>
+        <item>Gemini</item>
+        <item>Leo</item>
+        <item>Libra</item>
+        <item>Pisces</item>
+        <item>Sagittarius</item>
+        <item>Scorpio</item>
+        <item>Taurus</item>
+        <item>Virgo</item>
+    </string-array>
+
+
+    <string-array name="string_array_user_report">
+        <item>Fake Profile</item>
+        <item>Inappropritae Photos</item>
+        <item>Feels Like Spam</item>
+        <item>Advertising</item>
+        <item>Pornography</item>
+        <item>Personal Offence</item>
+        <item>User is Underage</item>
+        <item>Other Reason</item>
+    </string-array>
+
+
+</resources>

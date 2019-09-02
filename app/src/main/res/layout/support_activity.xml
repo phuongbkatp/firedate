@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techmax.datingsoon.Settings.SupportActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSupport"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        android:theme="@style/ToolbarTheme"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:titleTextColor="@color/colorBlack">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <TextView
+                android:id="@+id/textViewSupportContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:text="Because we value all your ideas and we want to offer you the best. What is your impression so far?"
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSupportDifficult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The application is very difficult to use" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSupportFriends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I couldn't make any friends so far" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSupportFreezes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="It's too slow or freezes at times" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSupportNotify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I feel uncomfortable about notifications" />
+
+            <CheckBox
+                android:id="@+id/checkBoxSupportEnjoy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="I like the app and enjoying it so far" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="How can we improve?" />
+
+            <EditText
+                android:id="@+id/editTextSupportOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorGrey"
+                android:gravity="top"
+                android:hint="Tell us your idea, error or suggestion"
+                android:minLines="5"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/buttonSupportButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

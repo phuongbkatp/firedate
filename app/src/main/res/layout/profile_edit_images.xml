@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverZero"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverZeroAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverZeroRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverOne"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverOneAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverOneRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverTwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverTwoAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverTwoRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverThree"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverThreeAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverThreeRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverFour"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverFourAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverFourRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverFive"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverFiveAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverFiveRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverSix"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverSixAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverSixRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverSeven"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverSevenAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverSevenRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="160dp"
+            android:layout_weight="1">
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                android:id="@+id/imageViewProfileEditCoverEight"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile_image"
+                app:riv_corner_radius="10dp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverEightAdd"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_add" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageViewProfileEditCoverEightRemove"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:elevation="4dp"
+                android:src="@drawable/user_image_remove"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

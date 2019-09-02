@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.techmax.datingsoon.Start.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/textViewRegisterTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/hello"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTextRegisterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_capsule"
+            android:hint="First Name"
+            android:inputType="textCapWords"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupRegisterGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioRegisterMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:buttonTint="@color/colorPinkDark"
+                android:onClick="radioButtonRegisterGender"
+                android:text="@string/male"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioRegisterFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:background="@android:color/transparent"
+                android:buttonTint="@color/colorPinkDark"
+                android:onClick="radioButtonRegisterGender"
+                android:text="@string/female"
+                android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textViewRegisterBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_capsule"
+            android:hint="@string/birthday"
+            android:inputType="none"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTextRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_capsule"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/editTextRegisterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/edittext_capsule"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnRegisterPageRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/button_capsule"
+            android:backgroundTint="@color/colorPinkDark"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnRegisterPageLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button_capsule"
+            android:backgroundTint="@color/colorEmail"
+            android:gravity="center"
+            android:text="Login"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

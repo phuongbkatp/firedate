@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.techmax.datingsoon.Settings.ReportActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarReport"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:elevation="6dp"
+        android:theme="@style/ToolbarTheme"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:titleTextColor="@color/colorBlack">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <TextView
+                android:id="@+id/textViewProfileReportContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:text="Is this person bothering you? Choose the reasons for your report."
+                android:textSize="18sp" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportFake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fake Profile" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportPhotos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Inappropritae Photos" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportSpam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feels Like Spam" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportAdverts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Advertising" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportAdult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adult Content" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportOffence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Offence" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportAbusive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Abusive Language" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportReligious"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Religious Comments" />
+
+            <CheckBox
+                android:id="@+id/checkBoxProfileReportUnderage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="User is Underage" />
+
+            <EditText
+                android:id="@+id/editTextProfileReportOther"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/colorGrey"
+                android:gravity="top"
+                android:hint="Other Reason"
+                android:minLines="5"
+                android:padding="15dp" />
+
+            <Button
+                android:id="@+id/buttonProfileReportButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Report" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

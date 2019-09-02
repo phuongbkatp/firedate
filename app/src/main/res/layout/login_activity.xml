@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.techmax.datingsoon.Start.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textViewLoginTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/loginEmailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edittext_capsule"
+        android:gravity="start"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/loginPassText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittext_capsule"
+        android:gravity="start"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLoginPageLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_capsule"
+        android:backgroundTint="@color/colorPinkDark"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnLoginPageRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_capsule"
+        android:backgroundTint="@color/colorEmail"
+        android:gravity="center"
+        android:text="Register"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

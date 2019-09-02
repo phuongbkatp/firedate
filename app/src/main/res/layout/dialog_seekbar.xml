@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp">
+
+
+    <TextView
+        android:id="@+id/textViewProfileEditSeekbarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="100"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewProfileEditSeekbarRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="200"
+        android:textSize="20sp" />
+
+    <com.crystal.crystalrangeseekbar.widgets.CrystalSeekbar
+        android:id="@+id/seekbarProfileEditSeekbarSlider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewProfileEditSeekbarLeft"
+        android:layout_marginTop="20dp"
+        app:bar_color="@color/colorPinkLight"
+        app:bar_highlight_color="@color/colorPink"
+        app:corner_radius="10"
+        app:data_type="_integer"
+        app:left_thumb_color="@color/colorPink"
+        app:left_thumb_color_pressed="@color/colorPinkDark"
+        app:max_value="200"
+        app:min_value="100" />
+
+
+</RelativeLayout>

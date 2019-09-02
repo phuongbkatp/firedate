@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menuUserFavoriteUser"
+        android:icon="@drawable/menu_favorite_white"
+        android:title="Favorite User"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/menuUserUnmatchUser"
+        android:icon="@drawable/icon_date_add"
+        android:title="Unmatch User"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menuUserDeleteChat"
+        android:title="Delete Chat"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menuUserBlockUser"
+        android:title="Block User"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menuUserReportUser"
+        android:title="Report User"
+        app:showAsAction="never" />
+
+
+</menu>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:padding="10dp"
+    app:cardElevation="0dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/roundedImageViewChatsItemChatsImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile_image"
+        app:riv_corner_radius="70dp"
+        app:riv_mutate_background="true"
+        app:riv_oval="false" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageViewChatsItemChatsOnline"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/user_online"
+        android:visibility="gone" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageViewChatsItemChatsOffline"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="46dp"
+        android:src="@drawable/user_offline"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewChatsItemChatsName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/roundedImageViewChatsItemChatsImage"
+        android:layout_toRightOf="@+id/roundedImageViewChatsItemChatsImage"
+        android:text="@string/full_name"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewChatsItemChatsMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_below="@+id/textViewChatsItemChatsName"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/roundedImageViewChatsItemChatsImage"
+        android:layout_toRightOf="@+id/roundedImageViewChatsItemChatsImage"
+        android:maxLines="1"
+        android:text="@string/message"
+        android:textColor="@color/colorGreyText"
+        android:textSize="16sp" />
+
+    <com.github.curioustechizen.ago.RelativeTimeTextView
+        android:id="@+id/RelativeTimeChatsItemChatsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/date"
+        android:textColor="@color/colorGreyText"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/textViewChatsItemChatsUnread"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/textViewChatsItemChatsName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/chat_unread"
+        android:gravity="center"
+        android:text="@string/_0"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
